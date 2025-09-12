@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welding Services Company</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Barakah Welding</div>
+    <div class="nav-indicator left">&#10094;</div>
+    <nav class="nav">
+      <a href="#hero" data-translate="nav_home">Home</a>
+      <a href="#about" data-translate="nav_about">About</a>
+      <a href="#services" data-translate="nav_services">Our Services</a>
+      <a href="#whychoose" data-translate="nav_why">Why Choose Us</a>
+      <a href="#location" data-translate="nav_location">Location</a>
+      <a href="#openhours" data-translate="nav_hours">Open Hours</a>
+      <a href="#faq" data-translate="nav_faq">FAQ</a>
+      <a href="#contact" data-translate="nav_contact">Contact</a>
+    </nav>
+    <div class="nav-indicator right">&#10095;</div>
+    <div class="lang-dropdown">
+      <button class="lang-btn" data-translate="lang_button">Language</button>
+      <div class="lang-menu">
+        <a href="#" onclick="setLanguage('ms')">Bahasa</a>
+        <a href="#" onclick="setLanguage('en')">English</a>
+        <a href="#" onclick="setLanguage('zh')">中文</a>
+        <a href="#" onclick="setLanguage('ta')">தமிழ்</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title" data-translate="hero_title">Professional Welding Solutions</h1>
+      <p class="hero-subtitle" data-translate="hero_subtitle">Strong • Reliable • Precise</p>
+      <div class="hero-buttons">
+        <a href="https://waze.com/ul?ll=3.1390,101.6869" target="_blank" class="btn" data-translate="hero_waze">Open in Waze</a>
+        <a href="#contact" class="btn" data-translate="hero_contact">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2 class="section-title" data-translate="about_title">About Us</h2>
+    <p data-translate="about_desc">We are specialists in welding and metal fabrication, delivering durable and precise results for industrial, commercial, and residential projects.</p>
+  </section>
+
+  <!-- OUR SERVICES -->
+  <section id="services" class="services">
+    <h2 class="section-title" data-translate="services_title">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card" data-service="service1"><h3 data-translate="service1_title">Custom Iron, Steel & Stainless Steel Works</h3></div>
+      <div class="service-card" data-service="service2"><h3 data-translate="service2_title">Gates, Fences & Railings</h3></div>
+      <div class="service-card" data-service="service3"><h3 data-translate="service3_title">Staircases & Structures</h3></div>
+      <div class="service-card" data-service="service4"><h3 data-translate="service4_title">Roofing & Canopies</h3></div>
+      <div class="service-card" data-service="service5"><h3 data-translate="service5_title">Industrial Racks</h3></div>
+      <div class="service-card" data-service="service6"><h3 data-translate="service6_title">Repair & Welding Services</h3></div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="whychoose" class="whychoose">
+    <h2 class="section-title" data-translate="why_title">Why Choose Us</h2>
+    <div class="why-grid">
+      <div class="why-card why1"><h3 data-translate="why1">Experienced Welders</h3></div>
+      <div class="why-card why2"><h3 data-translate="why2">High Quality Materials</h3></div>
+      <div class="why-card why3"><h3 data-translate="why3">Affordable Pricing</h3></div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section id="location" class="location">
+    <h2 class="section-title" data-translate="location_title">Our Location</h2>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps?q=3.199519098715128,101.55337884762835&hl=es;z=14&output=embed"></iframe>
+      <a href="https://waze.com/ul?ll=3.199519098715128,101.55337884762835" target="_blank" class="btn" data-translate="location_waze">Open in Waze</a>
+    </div>
+  </section>
+
+  <!-- OPEN HOURS -->
+  <section id="openhours" class="openhours">
+    <h2 class="section-title" data-translate="hours_title">Open Hours</h2>
+    <table class="hours-table">
+      <tr><td data-translate="hours_weekdays">Mon - Fri</td><td>9:00 AM - 6:00 PM</td></tr>
+      <tr><td data-translate="hours_sat">Saturday</td><td>9:00 AM - 4:00 PM</td></tr>
+      <tr><td data-translate="hours_sun">Sunday</td><td data-translate="closed">Closed</td></tr>
+    </table>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <h2 class="section-title" data-translate="faq_title">FAQ</h2>
+    <div class="faq-item">
+      <button class="faq-question" data-translate="faq1_q">Do you provide on-site welding?</button>
+      <div class="faq-answer" data-translate="faq1_a">Yes, we provide mobile welding services depending on your location.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" data-translate="faq2_q">What materials do you weld?</button>
+      <div class="faq-answer" data-translate="faq2_a">We focus on steel and stainless steel works, except aluminium.</div>
+    </div>
+      <div class="faq-item">
+      <button class="faq-question" data-translate="faq3_q">Can I request a custom design?</button>
+      <div class="faq-answer" data-translate="faq3_a">Yes. We accept designs from customers, or we can recommend a suitable design based on your needs.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" data-translate="faq4_q">Do you provide free quotations</button>
+      <div class="faq-answer" data-translate="faq4_a">Yes, we give free quotations, no hidden charges at all.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question" data-translate="faq5_q">How can I reach you quickly??</button>
+      <div class="faq-answer" data-translate="faq5_a">Contact us directly via WhatsApp (button on the website) for a quick response.</div>
+    </div>
+    
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2 class="section-title" data-translate="contact_title">Contact Us</h2>
+    <div class="contact-icons">
+      <a href="tel:+601111037914"><img src="gambar/phone.png" alt="Phone"></a>
+      <a href="mailto:barakahweldingg@gmail.com"><img src="gambar/email.png" alt="Email"></a>
+    </div>
+  </section>
+
+  <!-- STICKY WHATSAPP -->
+  <a href="https://wa.me/601111037914?text=Hello%20Barakah%20Welding,%20I%20found%20your%20website%20and%20I'm%20interested%20in%20your%20welding%20and%20ironworks%20services.%20Can%20you%20help%20with%20my%20project%3F" target="_blank" class="whatsapp-float">
+    <img src="gambar/whatsapp4.png" alt="WhatsApp">
+  </a>
+
+  <!-- popup -->
+  <div id="serviceModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+</body>
+</html>
